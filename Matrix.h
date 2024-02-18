@@ -11,7 +11,6 @@ public:
     T* operator[](int index);
     void setValue(int row, int column, const T& value);
     T getValue(int row, int column) const;
-private:
     T** matrix;
     int rowSize;
     int columnSize;

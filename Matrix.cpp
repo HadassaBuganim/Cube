@@ -19,18 +19,18 @@ Matrix<T>::~Matrix() {
 
 template<typename T>
 void Matrix<T>::rotateRight() {
-	if (row == col)
+	if (rowSize == columnSize)
 	{
-		T** temp = new T * [row];
-		for (size_t i = 0; i < row; i++)
+		T** temp = new T * [rowSize];
+		for (size_t i = 0; i < rowSize; i++)
 		{
-			temp[i] = new T[col];
-			for (size_t j = 0; j < col; j++)
+			temp[i] = new T[columnSize];
+			for (size_t j = 0; j < columnSize; j++)
 			{
-				temp[i][j] = matrix[col - 1 - j][i];
+				temp[i][j] = matrix[columnSize - 1 - j][i];
 			}
 		}
-		for (size_t i = 0; i < row; i++)
+		for (size_t i = 0; i < rowSize; i++)
 		{
 			delete[] matrix[i];
 		}
@@ -41,18 +41,18 @@ void Matrix<T>::rotateRight() {
 
 template<typename T>
 void Matrix<T>::rotateLeft() {
-	if (row == col)
+	if (rowSize == columnSize)
 	{
-		T** temp = new T * [row];
-		for (size_t i = 0; i < row; i++)
+		T** temp = new T * [rowSize];
+		for (size_t i = 0; i < rowSize; i++)
 		{
-			temp[i] = new T[col];
-			for (size_t j = 0; j < col; j++)
+			temp[i] = new T[columnSize];
+			for (size_t j = 0; j < columnSize; j++)
 			{
-				temp[i][j] = matrix[j][col - 1 - i];
+				temp[i][j] = matrix[j][columnSize - 1 - i];
 			}
 		}
-		for (size_t i = 0; i < row; i++)
+		for (size_t i = 0; i < rowSize; i++)
 		{
 			delete[] matrix[i];
 		}
