@@ -17,6 +17,7 @@ public:
     void rotateLeft();
 private:
     char matrix[2][2] = { 0 };
+    
 ;
 };
 

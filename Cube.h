@@ -7,7 +7,7 @@ typedef enum { ROTATE_FACE_COL, ROTATE_FACE_ROW, SWAP_COL, SWAP_ROW } function;
 typedef struct {
 	direction dir;
 	function fp;
-	int* arr;
+	std::vector<int> arr;
 }obj;
 class Cube
 {

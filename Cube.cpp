@@ -6,7 +6,8 @@ Cube::Cube(int size)
 	cubeSize = size;
 	for (size_t i = 0; i < 6; i++)
 	{
-		wigs[i] = CubeWig(size);
+		CubeWig c(size);
+		wigs[i] = c;
 	}
 	//הגדרת מערך הפונקציות
 	int n = cubeSize;
@@ -19,14 +20,14 @@ Cube::Cube(int size)
 			//הגדרת כיוון, 0 לימין 1 לשמאל
 			arr[0][j].dir = (i == 0 ? RIGHT : LEFT);
 			//בשביל הפאות
-			if (i % n == 0 || i % n == 1)
+			if ((i + 1) % n == 0 || (i + 1) % n == 1)
 			{
-				arr[i][j].arr = new int[6];
-				if (i == 2 * n + 1 || i == n * 3)
+				arr[i][j].arr.resize(6);
+				if ((i + 1) == 2 * n + 1 || (i + 1) == n * 3)
 					arr[i][j].fp = ROTATE_FACE_ROW;
 				else
 					arr[i][j].fp = ROTATE_FACE_COL;
-				if (i == 1)
+				if ((i + 1) == 1)
 				{
 					arr[i][j].arr[0] = 4;
 					arr[i][j].arr[1] = 2;
@@ -34,7 +35,7 @@ Cube::Cube(int size)
 					arr[i][j].arr[3] = 3;
 					arr[i][j].arr[4] = 5;
 				}
-				if (i == n)
+				if ((i + 1) == n)
 				{
 					arr[i][j].arr[0] = 1;
 					arr[i][j].arr[1] = 2;
@@ -42,7 +43,7 @@ Cube::Cube(int size)
 					arr[i][j].arr[3] = 3;
 					arr[i][j].arr[4] = 0;
 				}
-				if (i == n + 1)
+				if ((i + 1) == n + 1)
 				{
 					arr[i][j].arr[0] = 0;
 					arr[i][j].arr[1] = 2;
@@ -50,7 +51,7 @@ Cube::Cube(int size)
 					arr[i][j].arr[3] = 3;
 					arr[i][j].arr[4] = 4;
 				}
-				if (i == n * 2)
+				if ((i + 1) == n * 2)
 				{
 					arr[i][j].arr[0] = 5;
 					arr[i][j].arr[1] = 2;
@@ -58,7 +59,7 @@ Cube::Cube(int size)
 					arr[i][j].arr[3] = 3;
 					arr[i][j].arr[4] = 1;
 				}
-				if (i == 2 * n + 1)
+				if ((i + 1) == 2 * n + 1)
 				{
 					arr[i][j].arr[0] = 2;
 					arr[i][j].arr[1] = 5;
@@ -66,7 +67,7 @@ Cube::Cube(int size)
 					arr[i][j].arr[3] = 0;
 					arr[i][j].arr[4] = 4;
 				}
-				if (i == n * 3)
+				if ((i + 1) == n * 3)
 				{
 					arr[i][j].arr[0] = 3;
 					arr[i][j].arr[1] = 0;
@@ -74,14 +75,14 @@ Cube::Cube(int size)
 					arr[i][j].arr[3] = 5;
 					arr[i][j].arr[4] = 4;
 				}
-				arr[i][j].arr[0] = 0;
+				arr[i][j].arr[5] = 0;
 			}
 			else
 			{
 				//הגדרת מערך בגודל 5 לאינדקסים
-				arr[i][j].arr = new int[5];
+				arr[i][j].arr.resize(5);
 				//פאה מס'0
-				if (i > 1 && i < n)
+				if ((i + 1) > 1 && (i + 1) < n)
 				{
 					arr[i][j].fp = SWAP_COL;
 					//ימין
@@ -100,12 +101,12 @@ Cube::Cube(int size)
 						arr[i][j].arr[2] = 5;
 						arr[i][j].arr[3] = 3;
 					}
-					arr[i][j].arr[4] = i - 1;
+					arr[i][j].arr[4] = i;
 				}
 				else
 				{
 					//פאה מס' 1
-					if (i > n + 1 && i < n * 2)
+					if ((i + 1) > n + 1 && (i + 1) < n * 2)
 					{
 						arr[i][j].fp = SWAP_COL;
 						//ימין
@@ -124,7 +125,7 @@ Cube::Cube(int size)
 							arr[i][j].arr[2] = 4;
 							arr[i][j].arr[3] = 3;
 						}
-						arr[i][j].arr[4] = i - n - 1;
+						arr[i][j].arr[4] = (i + 1) - n - 1;
 					}
 					//רוחב הקוביה
 					else
@@ -146,7 +147,7 @@ Cube::Cube(int size)
 							arr[i][j].arr[2] = 5;
 							arr[i][j].arr[3] = 1;
 						}
-						arr[i][j].arr[4] = i - n * 2 - 1;
+						arr[i][j].arr[4] = (i + 1) - n * 2 - 1;
 					}
 				}
 			}

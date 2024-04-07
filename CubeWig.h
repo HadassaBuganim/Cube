@@ -3,6 +3,7 @@
 
 //#include "Matrix.h"
 #include "InternalMatrix.h"
+#include <vector>
 
 class CubeWig{
 public:
@@ -17,9 +18,10 @@ public:
     std::string extractString() const;
     void rotateRight();
     void rotateLeft();
-    CubeWig operator=(CubeWig wig);
+    //CubeWig operator=(CubeWig& wig);
 private:
-    InternalMatrix** matrix;
+    std::vector<std::vector<InternalMatrix> > matrix = {};
+    ///InternalMatrix** matrix = nullptr;
     int wigSize;
 };
 

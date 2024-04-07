@@ -1,34 +1,31 @@
+
 #include "CubeWig.h"
 
 CubeWig::CubeWig(int size)
 {
     wigSize = size;
-    /*matrix = new InternalMatrix * [size];
+    //matrix = new InternalMatrix * [size];
+    matrix.resize(size);
     for (size_t i = 0; i < size; i++)
     {
-        matrix[i] = new InternalMatrix[size];
-    }*/
-    matrix = new InternalMatrix*[1];
-    matrix[0] = new InternalMatrix[1];
+        matrix[i].resize(size);
+    }
+   /* matrix = new InternalMatrix*[1];
+    matrix[0] = new InternalMatrix[1];*/
 
 }
 CubeWig::CubeWig()
 {
     wigSize = 3;
-    matrix = new InternalMatrix * [3];
+    /*matrix = new InternalMatrix * [3];
     for (size_t i = 0; i < 3; i++)
     {
         matrix[i] = new InternalMatrix[3];
-    }
+    }*/
 }
 
 CubeWig::~CubeWig() 
 {
-    for (size_t i = 0; i < wigSize; i++)
-    {
-        delete[] matrix[i];
-    }
-    delete[] matrix;
 }
 
 void CubeWig::changeMatrix(int i, int j, char a, char b, char c, char d) {
@@ -82,34 +79,44 @@ void CubeWig::rotateLeft()
             matrix[i][j].rotateLeft();
         }
     }
-   InternalMatrix** temp = new InternalMatrix * [wigSize];
+    std::vector<std::vector<InternalMatrix> > temp = {};
+
+    temp.resize(wigSize);
+    for (size_t i = 0; i < wigSize; i++)
+    {
+        temp[i].resize(wigSize);
+    }
    for (size_t i = 0; i < wigSize; i++)
    {
-       temp[i] = new InternalMatrix[wigSize];
        for (size_t j = 0; j < wigSize; j++)
        {
            temp[i][j] = matrix[j][wigSize - 1 - i];
        }
    }
-   for (size_t i = 0; i < wigSize; i++)
-   {
-       delete[] matrix[i];
-   }
-   delete[] matrix;
    matrix = temp;
 }
-CubeWig CubeWig::operator=(CubeWig wig)
-{
-    for (size_t i = 0; i < wig.wigSize; i++)
-    {
-        for (size_t j = 0; j < wig.wigSize; j++)
-        {
-            this->matrix[i][j] = wig.matrix[i][j];
-        }
-    }
-    this->wigSize = wig.wigSize;
-    return *this;
-}
+//CubeWig CubeWig::operator=(CubeWig& wig)
+//{
+//
+//    this->wigSize = wig.wigSize;
+//    if (!this->matrix) {
+//        this->matrix = new InternalMatrix * [this->wigSize];
+//        
+//        
+//    }for (size_t i = 0; i < this->wigSize; i++)
+//        {
+//            if (!this->matrix[i])
+//                this->matrix[i] = new InternalMatrix[this->wigSize];
+//        }
+//    for (size_t i = 0; i < wig.wigSize; i++)
+//    {
+//        for (size_t j = 0; j < wig.wigSize; j++)
+//        {
+//            this->matrix[i][j] = wig.matrix[i][j];
+//        }
+//    }
+//    return *this;
+//}
 void CubeWig::rotateRight()
 {
     for (int i = 0; i < wigSize; i++)
@@ -119,20 +126,20 @@ void CubeWig::rotateRight()
             matrix[i][j].rotateRight();
         }
     }
-    InternalMatrix** temp = new InternalMatrix * [wigSize];
-   for (size_t i = 0; i < wigSize; i++)
+    std::vector<std::vector<InternalMatrix> > temp = {};
+    temp.resize(wigSize);
+    for (size_t i = 0; i < wigSize; i++)
+    {
+        temp[i].resize(wigSize);
+    }
+    for (size_t i = 0; i < wigSize; i++)
    {
-       temp[i] = new InternalMatrix[wigSize];
        for (size_t j = 0; j < wigSize; j++)
        {
-           temp[i][j] = matrix[wigSize - 1 - j][i];
+           temp[i][j] = temp[wigSize - 1 - j][i];
        }
    }
-   for (size_t i = 0; i < wigSize; i++)
-   {
-       delete[] matrix[i];
-   }
-   delete[] matrix;
+   
    matrix = temp;
 
 }
