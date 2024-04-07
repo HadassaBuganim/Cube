@@ -1,22 +1,26 @@
-//#ifndef CUBEWIG_H
-//#define CUBEWIG_H
-//
-//#include "InternalMatrix.h"
-//
-//class CubeWig {
-//public:
-//    CubeWig(int size);
-//    CubeWig();
-//    ~CubeWig();
-//    void smallMatrixChange(int i, int j, char a, char b, char c, char d);
-//    std::string internalMatrixReturn(int i, int j) const;
-//    //InternalMatrix getSmallMatrix(int i, int j);
-//    void stringInsertion(const std::string& str);
-//    std::string stringExtraction();
-//    void rotateWigLeft();
-//private:
-//    int wigSize;
-//    Matrix<InternalMatrix>** wig;
-//};
-//
-//#endif // CUBEWIG_H
+#ifndef CUBE_WIG_H
+#define CUBE_WIG_H
+
+//#include "Matrix.h"
+#include "InternalMatrix.h"
+
+class CubeWig{
+public:
+    CubeWig(int size);
+    CubeWig();
+    ~CubeWig();
+
+    void changeMatrix(int i, int j, char a, char b, char c, char d);
+    std::string getInternalMatrixByString(int i, int j) const;
+    InternalMatrix getInternalMatrix(int i, int j);
+    void insertString(const std::string& bits);
+    std::string extractString() const;
+    void rotateRight();
+    void rotateLeft();
+    CubeWig operator=(CubeWig wig);
+private:
+    InternalMatrix** matrix;
+    int wigSize;
+};
+
+#endif // CUBE_WIG_H

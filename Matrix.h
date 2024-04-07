@@ -1,19 +1,33 @@
-#ifndef MATRIX_H
-#define MATRIX_H
-
-template<typename T>
-class Matrix {
-public:
-    Matrix(int row, int column);
-    ~Matrix();
-    void rotateRight();
-    void rotateLeft();
-    T* operator[](int index);
-    void setValue(int row, int column, const T& value);
-    T getValue(int row, int column) const;
-    T** matrix;
-    int rowSize;
-    int columnSize;
-};
-
-#endif // MATRIX_H
+//#ifndef MATRIX_H
+//#define MATRIX_H
+//
+////template<typename T>
+////class Matrix {
+////protected:
+////    T** matrix;
+////    int row;
+////    int column;
+////
+////public:
+////    Matrix(int row, int column);
+////    virtual ~Matrix();
+////
+////    void rotateRight();
+////    void rotateLeft();
+////};
+//
+//class Matrix {
+//protected:
+//    int** matrix;
+//    int row;
+//    int column;
+//
+//public:
+//    Matrix(int row, int column);
+//    virtual ~Matrix();
+//
+//    void rotateRight();
+//    void rotateLeft();
+//};
+//
+//#endif // MATRIX_H

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\InternalMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|solutionrelative:InternalMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\CubeWig.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|solutionrelative:CubeWig.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Cube.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|solutionrelative:Cube.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|solutionrelative:FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Cube.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|solutionrelative:Cube.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\CubeWig.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|solutionrelative:CubeWig.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\InternalMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|solutionrelative:InternalMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04296792-2FF7-4EE3-8B54-03A250E7FDE7}|Project2.vcxproj|solutionrelative:Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CubeWig.cpp",
+              "DocumentMoniker": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\CubeWig.cpp",
+              "RelativeDocumentMoniker": "CubeWig.cpp",
+              "ToolTip": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\CubeWig.cpp",
+              "RelativeToolTip": "CubeWig.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T10:20:42.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CubeWig.h",
+              "DocumentMoniker": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\CubeWig.h",
+              "RelativeDocumentMoniker": "CubeWig.h",
+              "ToolTip": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\CubeWig.h",
+              "RelativeToolTip": "CubeWig.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-26T10:20:13.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\FileName.cpp",
+              "RelativeDocumentMoniker": "FileName.cpp",
+              "ToolTip": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\FileName.cpp",
+              "RelativeToolTip": "FileName.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-18T20:38:42.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cube.h",
+              "DocumentMoniker": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Cube.h",
+              "RelativeDocumentMoniker": "Cube.h",
+              "ToolTip": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Cube.h",
+              "RelativeToolTip": "Cube.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-18T20:37:46.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cube.cpp",
+              "DocumentMoniker": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Cube.cpp",
+              "RelativeDocumentMoniker": "Cube.cpp",
+              "ToolTip": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Cube.cpp",
+              "RelativeToolTip": "Cube.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-18T20:37:58.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InternalMatrix.h",
+              "DocumentMoniker": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\InternalMatrix.h",
+              "RelativeDocumentMoniker": "InternalMatrix.h",
+              "ToolTip": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\InternalMatrix.h",
+              "RelativeToolTip": "InternalMatrix.h",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-26T09:44:20.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InternalMatrix.cpp",
+              "DocumentMoniker": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\InternalMatrix.cpp",
+              "RelativeDocumentMoniker": "InternalMatrix.cpp",
+              "ToolTip": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\InternalMatrix.cpp",
+              "RelativeToolTip": "InternalMatrix.cpp",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowCUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T09:45:37.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Matrix.cpp",
+              "DocumentMoniker": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Matrix.cpp",
+              "RelativeDocumentMoniker": "Matrix.cpp",
+              "ToolTip": "C:\\Users\\WIN 10\\Desktop\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05D2\u05DE\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E0\u05E1\u05D5\u05D9\\Project2\\Matrix.cpp",
+              "RelativeToolTip": "Matrix.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-18T20:34:15.267Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

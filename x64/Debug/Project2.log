@@ -1,0 +1,23 @@
+﻿  Cube.cpp
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(161,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(189,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(189,86): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(205,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(219,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(230,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(234,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(234,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(238,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(238,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(242,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(242,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(246,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(255,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(259,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(263,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(267,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\Cube.cpp(271,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  CubeWig.cpp
+  FileName.cpp
+  Generating Code...
+  Project2.vcxproj -> H:\תכנות שנה ב תשפד\תלמידות\דסי בוגנים\שנה זו\פרויקט גמר בסד\מהבית אחרי החתונה\פרוייקט גמר\פרויקט נסוי\הטובים\Cube\x64\Debug\Project2.exe

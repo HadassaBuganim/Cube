@@ -1,0 +1,19 @@
+﻿  Cube.cpp
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(161,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(189,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(189,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(189,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(189,82): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(205,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(205,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(219,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(219,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(230,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(234,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(234,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(238,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(238,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(242,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(242,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\Cube.cpp(246,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Project2.vcxproj -> C:\Users\WIN 10\Desktop\לימודים\פרוייקט גמר\פרויקט נסוי\Project2\x64\Debug\Project2.exe

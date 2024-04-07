@@ -1,18 +1,23 @@
-//#ifndef INTERNALMATRIX_H
-//#define INTERNALMATRIX_H
-//
+#ifndef INTERNAL_MATRIX_H
+#define INTERNAL_MATRIX_H
+
 //#include "Matrix.h"
-//#include <string>
-//
-//class InternalMatrix {
-//public:
-//    InternalMatrix();
-//    InternalMatrix(char a, char b, char c, char d);
-//    ~InternalMatrix();
-//    void XORWithMatrix(const InternalMatrix& other);
-//    std::string matrixToString() const;
-//    void changeMatrix(char a, char b, char c, char d);
-//    Matrix<char>* matrixChar;
-//};
-//
-//#endif // INTERNALMATRIX_H
+#include <string>
+
+class InternalMatrix {
+public:
+    InternalMatrix();
+    InternalMatrix(char a, char b, char c, char d);
+    ~InternalMatrix();
+
+    void xorWithOtherMatrix(const InternalMatrix& other);
+    std::string getMatrixByString() const;
+    void setMatrix(char a, char b, char c, char d);
+    void rotateRight();
+    void rotateLeft();
+private:
+    char matrix[2][2] = { 0 };
+;
+};
+
+#endif // INTERNAL_MATRIX_H
