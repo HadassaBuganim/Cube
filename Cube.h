@@ -26,6 +26,7 @@ public:
 private:
 	CubeWig wigs[6];
 	int cubeSize;
-	obj* arr[2];
+	std::vector<std::vector<obj> > arr = {};
+	//obj* arr[2];
 };
 #endif // CUBE_H

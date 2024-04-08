@@ -16,8 +16,8 @@ int main() {
     ////mat.~Matrix();
     //mat.rotateLeft();
     //return 0;
-    std::string input = "000000010000001000000011";
-    Cube c(1);
+    std::string input = "000110010000001000010011000000010011001000000111";
+    Cube c(4);
     c.insertString(input);
     c.rotate(1, LEFT);
     std::string output = c.extructString();
